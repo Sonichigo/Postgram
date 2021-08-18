@@ -11,13 +11,13 @@ function TweetBox() {
     e.preventDefault();
 
     db.collection("posts").add({
-      displayName: "Rafeh Qazi",
-      username: "cleverqazi",
+      displayName: "Animesh",
+      username: "sonichigo1219",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
       avatar:
-        "https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png",
+        "https://media-exp1.licdn.com/dms/image/C5603AQGa7akBdRiQ_g/profile-displayphoto-shrink_400_400/0/1603204713734?e=1634774400&v=beta&t=N21dHNBGRAb_H7dhknIfNnaveZd04yTV1rZnVEIVSkY",
     });
 
     setTweetMessage("");
